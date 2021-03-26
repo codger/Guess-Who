@@ -1,6 +1,6 @@
 //
 //  Characters.swift
-//  Guess Who
+//  Guess  Who
 //
 //  Created by John James on 3/20/21.
 //

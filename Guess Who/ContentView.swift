@@ -15,7 +15,7 @@ struct ContentView: View {
         GridItem(.fixed(100)),
         GridItem(.fixed(100)),
         GridItem(.fixed(100)),
-//        GridItem(.fixed(100)),
+        GridItem(.fixed(100)),
         GridItem(.fixed(100))
     ]
     
