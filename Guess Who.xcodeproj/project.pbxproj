@@ -11,6 +11,9 @@
 		F39C734226070FA700079993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C734126070FA700079993 /* ContentView.swift */; };
 		F39C734426070FA800079993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39C734326070FA800079993 /* Assets.xcassets */; };
 		F39C734726070FA800079993 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39C734626070FA800079993 /* Preview Assets.xcassets */; };
+		F39C73502607106900079993 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C734F2607106900079993 /* Characters.swift */; };
+		F39C73532607B36500079993 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C73522607B36500079993 /* CardView.swift */; };
+		F39C7358260E70B100079993 /* About and TODO.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F39C7357260E70B100079993 /* About and TODO.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		F39C734326070FA800079993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F39C734626070FA800079993 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F39C734826070FA800079993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39C734F2607106900079993 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		F39C73522607B36500079993 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F39C7357260E70B100079993 /* About and TODO.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "About and TODO.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				F39C733F26070FA700079993 /* Guess_WhoApp.swift */,
+				F39C734F2607106900079993 /* Characters.swift */,
 				F39C734126070FA700079993 /* ContentView.swift */,
+				F39C73522607B36500079993 /* CardView.swift */,
 				F39C734326070FA800079993 /* Assets.xcassets */,
 				F39C734826070FA800079993 /* Info.plist */,
 				F39C734526070FA800079993 /* Preview Content */,
+				F39C7357260E70B100079993 /* About and TODO.rtf */,
 			);
 			path = "Guess Who";
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F39C734726070FA800079993 /* Preview Assets.xcassets in Resources */,
+				F39C7358260E70B100079993 /* About and TODO.rtf in Resources */,
 				F39C734426070FA800079993 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F39C734226070FA700079993 /* ContentView.swift in Sources */,
+				F39C73502607106900079993 /* Characters.swift in Sources */,
 				F39C734026070FA700079993 /* Guess_WhoApp.swift in Sources */,
+				F39C73532607B36500079993 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

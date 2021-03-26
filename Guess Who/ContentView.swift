@@ -8,9 +8,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var cards = characters
+    
+    let rows = [
+        GridItem(.fixed(100)),
+        GridItem(.fixed(100)),
+        GridItem(.fixed(100)),
+        GridItem(.fixed(100)),
+//        GridItem(.fixed(100)),
+        GridItem(.fixed(100))
+    ]
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            LazyHGrid(rows: rows, alignment: .top) {
+                ForEach(0..<characters.count, id: \.self) { item in
+                    NavigationLink(
+                        destination: CardView(characterID: item),
+                        label: {
+                            Image(uiImage: imageForCharacter(character: characters[item]))
+                                .resizable()
+                                .scaledToFit()
+                        })
+                }
+            }
+            .navigationTitle("Guess Who")
+            .navigationBarTitleDisplayMode(.inline)
+            
+            .navigationBarItems(leading: Button(action: {
+                print("Reset Pressed")
+            }, label: {
+                Image(systemName: "arrow.uturn.forward")
+            }), trailing: Button(action: {
+                print("Filter Pressed")
+            }, label: {
+                Image(systemName: "camera.filters")
+            }))
+            
+        }
     }
 }
 
