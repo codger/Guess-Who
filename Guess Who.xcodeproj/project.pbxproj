@@ -26,6 +26,7 @@
 		F39C734F2607106900079993 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		F39C73522607B36500079993 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F39C7357260E70B100079993 /* About and TODO.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "About and TODO.rtf"; sourceTree = "<group>"; };
+		F39C735A260F9B6200079993 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		F39C733326070FA700079993 = {
 			isa = PBXGroup;
 			children = (
+				F39C735A260F9B6200079993 /* README.md */,
 				F39C733E26070FA700079993 /* Guess Who */,
 				F39C733D26070FA700079993 /* Products */,
 			);
